@@ -1,0 +1,24 @@
+# Core Git libraries
+GitPython>=3.1.40
+pygit2>=1.13.0
+
+# Data processing
+pandas>=2.0.0
+
+# Text processing
+textnorm>=1.0.0
+markdown>=3.5.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Note: For pygit2, you may need to install libgit2 first:
+# macOS: brew install libgit2
+# Ubuntu/Debian: sudo apt-get install libgit2-dev
+# For other systems, see: https://www.pygit2.org/install.html
+requests>=2.31.0
+textnorm>=1.0.0
+markdown>=3.5.0 
+lxml>=5.3.2
+email_reply_parser>=0.3.2
+dateutil>=2.8.2
