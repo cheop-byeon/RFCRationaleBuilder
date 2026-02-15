@@ -1,5 +1,13 @@
 # RFCRationaleBuilder
 
+RFCRationaleBuilder is the codebase for our curated dataset **CodeConvo**, available at https://huggingface.co/datasets/jiebi/CodeConvo/.
+CodeConvo includes software engineering repositories (e.g., [nixpkgs](https://github.com/NixOS/nixpkgs), [kubernetes](https://github.com/kubernetes/kubernetes), [pytorch](https://github.com/pytorch/pytorch), [react](https://github.com/facebook/react), [rust](https://github.com/rust-lang/rust), [freecodecamp](https://github.com/freeCodeCamp/freeCodeCamp), [vscode](https://github.com/microsoft/vscode)), documentation repositories such as [kubernetes-website](https://github.com/kubernetes/website), plus [SWE-bench](https://github.com/swe-bench/SWE-bench) (converted to our formats), and many IETF WG Internet-Drafts repositories.
+
+Two dataset variants are produced:
+
+- **`ids`**: PR/edit ↔ issue/comment relationships from IETF draft evolution and GitHub discussions.
+- **`code`**: PR/code-change ↔ issue/comment relationships from software iteration and discussions.
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -47,77 +55,36 @@ source venv/bin/activate
 deactivate
 ```
 
----
-
 ## Processing Pipeline
 
-#### Step 1: Download Data from GitHub
-This step was based on gh2md, please refer to https://github.com/mattduck/gh2md
-```
-# using GraphQL to scrape data and then save the data into csv files wg_url/draft_name draft_name.csv, e.g.
-python gh2csv_ids.py ietf-wg-add/draft-ietf-add-svcb-dns draft-ietf-add-svcb-dns.csv
-```
-#### Step 2: Restore File Snapshots
-We keep only the xml, markdown files, which are the actual draft files. The restored files are stored in a folder "snapshots".
-```
-# restore_file.py local_repo_path(the same as draft_name) draft_name(.csv), e.g.
-python restore_file.py draft-ietf-add-svcb-dns
-```
-#### Step 3: Convert XML/Markdown Files and simplify XML files
-For Kramdown, please see information from https://github.com/gettalong/kramdown
-```
-# depends on the type of file: .md, .mkd, or .xml, and if it is a markdown type(.md or .mkd):
-for FILE in snapshots/*.md; do kramdown-rfc2629 -2 $FILE > $FILE.xml; done; 
-# kramdown-rfc thinks both v2 and v3 are set to v3 by default, we force it to be version 2 by "-2", since v3 cannot remove the paging.
-```
-There are different formats of markdown files, so is to be processed by mmark, see https://github.com/mmarkdown/mmark,
-draft-ietf-dmarc-dmarcbis, draft-ietf-dnsop-glue-is-not-optional, perc-wg, sniencryption;
-```
-for FILE in draft-ietf-add-svcb-dns/snapshots/*.md; do ./mmark $FILE > $FILE.xml; done; 
-```
-```
-# simplify_xml_parser local_repo_path, e.g.,
-python simplify_xml_parser.py draft-ietf-add-svcb-dns
- ```
-During this step, it need manually fix the xml files, depending on the following:
- ```
-# missing closing tag, e.g., <tag/>
-# tag mismatch
-# missing definition, e.g.
-<!DOCTYPE definition [
-  <!ENTITY uuml   "&#220;">
-  <!ENTITY nbsp   "&#160;">
-  <!ENTITY nbhy   "&#8209;">
-  <!ENTITY aacute "&#193;">
-  <!ENTITY mdash  "&#151;">
-  <!ENTITY zwsp   "&#8203;">
-  <!ENTITY wj     "&#8288;">
-  <!ENTITY rsquo  "&#146;">
-  <!ENTITY rdquo  "&#148;">
-  <!ENTITY ldquo  "&#147;">
-  <!ENTITY iacute "&#205;">
-  <!ENTITY eacute "&#201;">
-  <!ENTITY wj     "&#8288;">
-  <!ENTITY reg    "&#174;">
-]>
-https://authors.ietf.org/en/templates-and-schemas
-# CData section not finished
-&#8220;<bcp14></bcp14>&#8221
+The full pipeline (with edge cases) is documented in [scripts/README.md](scripts/README.md).
 
-markdown file corruption correcting tool:
-https://codebeautify.org/yaml-validator
-xml file corruption correcting tool:
-https://codebeautify.org/xmlvalidator
- ```
-#### Step 4: Convert XML to Text
-Please refer to https://github.com/ietf-tools/xml2rfc
-```
-for FILE in draft-ietf-add-svcb-dns/simplified_xmls/*.out.xml; do xml2rfc $FILE --v2 --raw --no-dtd; done;
-```
+## Dataset Citation
 
-#### Step 5: Extract Changed Paragraphs and Discussion Text
+If you use CodeConvo or this pipeline, please cite:
 
 ```
-# txt2csv local_repo_path draft_name_ab(.csv), e.g.
-python txt2csv_ids.py draft-ietf-add-svcb-dns --no-save-filtered --no-save-duplicates
+@inproceedings{bian2024tell,
+  title={Tell Me Why: Language Models Help Explain the Rationale Behind Internet Protocol Design},
+  author={Bian, Jie and Welzl, Michael and Kutuzov, Andrey and Arefyev, Nikolay},
+  booktitle={2024 IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)},
+  pages={447--453},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{bian2025automated,
+  title={Automated insights into github collaboration dynamics},
+  author={Bian, Jie and Arefev, Nikolay and M{\"u}hlh{\"a}user, Max and Welzl, Michael},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}
 ```
+
+## Acknowledgements
+
+- [gh2md](https://github.com/mattduck/gh2md)
+- [xml2rfc](https://github.com/ietf-tools/xml2rfc)
+- [mmark](https://github.com/mmarkdown/mmark)
+- [kramdown-rfc](https://github.com/gettalong/kramdown)
