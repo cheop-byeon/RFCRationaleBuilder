@@ -82,6 +82,10 @@ If you use CodeConvo or this pipeline, please cite:
 }
 ```
 
+# Presentation:
+ICMLN2024 https://icmlcn2024.ieee-icmlcn.org/program/interactive-sessions
+see poster/
+
 ## Acknowledgements
 
 - [gh2md](https://github.com/mattduck/gh2md)
