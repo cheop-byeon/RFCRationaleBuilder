@@ -82,9 +82,13 @@ If you use CodeConvo or this pipeline, please cite:
 }
 ```
 
-# Presentation:
-ICMLN2024 https://icmlcn2024.ieee-icmlcn.org/program/interactive-sessions
-see poster/
+## Dataset Usage
+The initial version of the data compiled through this pipeline, was used in the above first paper for binary classification. The data could be downloaded from https://huggingface.co/datasets/jiebi/ids-paragraph-commentary-corpus.
+
+The expansion version of the data compiled was used in the second paper, for information retrieval task. The data could be found https://huggingface.co/datasets/jiebi/CodeConvo.
+
+## Presentation:
+See poster https://github.com/cheop-byeon/bert_for_long_text/blob/main/img/ICMLCN2024_poster.pdf, presented at ICMLN2024 https://icmlcn2024.ieee-icmlcn.org/program/interactive-sessions.
 
 ## Acknowledgements
 
