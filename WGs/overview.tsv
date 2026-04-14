@@ -1,6 +1,171 @@
-repo_name	file_name
-"draft-ietf-add-svcb-dns"	"draft-schwartz-svcb-dns.md\ndraft-ietf-add-svcb-dns.md"
-"constrained-voucher"	"constrained-voucher.mkd\nconstrained-voucher.xml"
-"anima-brski-ae"	"draft-ietf-anima-brski-async-enroll.xml\ndraft-ietf-anima-brski-ae.md"
-"acme"	"draft-ietf-acme-acme.md\ndraft-ietf-acme-acme.clean.xml\ndraft-ietf-acme-acme.xml\ndraft-ietf-acme.md\nrfc8555.src-clean.xml\nrfc8555.edited.xml"
-"ace-dtls-profile"	"draft-ietf-ace-dtls-authorize.md\nrfc9202.xml"
+repo	file_name	file_volume	file_type	total_volume	num_of_drafts	main_file_type
+draft-ietf-add-split-horizon-authority	draft-ietf-add-split-horizon-authority.xml	{'draft-ietf-add-split-horizon-authority.xml': 24}	{'xml': 24}	24	1	xml
+draft-ietf-add-svcb-dns	draft-schwartz-svcb-dns.md draft-ietf-add-svcb-dns.md	{'draft-schwartz-svcb-dns.md': 8, 'draft-ietf-add-svcb-dns.md': 20}	{'md': 28}	28	2	md
+draft-ietf-add-requirements	draft-add-requirements.md	{'draft-add-requirements.md': 10}	{'md': 10}	10	1	md
+constrained-voucher	constrained-voucher.mkd constrained-voucher.xml	{'constrained-voucher.mkd': 242, 'constrained-voucher.xml': 16}	{'mkd': 242, 'xml': 16}	258	2	mkd
+anima-brski-prm	draft-ietf-anima-brski-prm.md	{'draft-ietf-anima-brski-prm.md': 16}	{'md': 16}	16	1	md
+anima-brski-ae	draft-ietf-anima-brski-async-enroll.xml draft-ietf-anima-brski-ae.md	{'draft-ietf-anima-brski-async-enroll.xml': 6, 'draft-ietf-anima-brski-ae.md': 2}	{'xml': 6, 'md': 2}	8	2	xml
+brski-cloud	anima-brski-cloud.md	{'anima-brski-cloud.md': 36}	{'md': 36}	36	1	md
+autonomic-control-plane	draft-ietf-anima-autonomic-control-plane.xml	{'draft-ietf-anima-autonomic-control-plane.xml': 6}	{'xml': 6}	6	1	xml
+anima-bootstrap	dtbootstrap-anima-keyinfra.xml	{'dtbootstrap-anima-keyinfra.xml': 24}	{'xml': 24}	24	1	xml
+acme	draft-ietf-acme-acme.md draft-ietf-acme-acme.clean.xml draft-ietf-acme-acme.xml draft-ietf-acme.md rfc8555.src-clean.xml rfc8555.edited.xml	{'draft-ietf-acme-acme.md': 668, 'draft-ietf-acme-acme.clean.xml': 10, 'draft-ietf-acme-acme.xml': 10, 'draft-ietf-acme.md': 4, 'rfc8555.src-clean.xml': 10, 'rfc8555.edited.xml': 2}	{'md': 672, 'xml': 32}	704	6	md
+ace-key-groupcomm-oscore	draft-ietf-ace-key-groupcomm-oscore.md	{'draft-ietf-ace-key-groupcomm-oscore.md': 44}	{'md': 44}	44	1	md
+ace-oauth	draft-ietf-ace-oauth-authz.xml	{'draft-ietf-ace-oauth-authz.xml': 44}	{'xml': 44}	44	1	xml
+mqtt-tls-profile	draft-ietf-ace-mqtt-tls-profile.xml	{'draft-ietf-ace-mqtt-tls-profile.xml': 34}	{'xml': 34}	34	1	xml
+ace-dtls-profile	draft-ietf-ace-dtls-authorize.md rfc9202.xml	{'draft-ietf-ace-dtls-authorize.md': 10, 'rfc9202.xml': 4}	{'md': 10, 'xml': 4}	14	2	md
+ietf-ccamp-layer0-types-ext-RFC9093-bis	draft-ietf-ccamp-layer0-types-ext.xml draft-ietf-ccamp-rfc9093-bis.md draft-ietf-ccamp-rfc9093-bis.xml	{'draft-ietf-ccamp-layer0-types-ext.xml': 2, 'draft-ietf-ccamp-rfc9093-bis.md': 4, 'draft-ietf-ccamp-rfc9093-bis.xml': 4}	{'xml': 6, 'md': 4}	10	3	xml
+ietf-ccamp-yang-otn-slicing	draft-ietf-ccamp-yang-otn-slicing.xml draft-ietf-ccamp-yang-otn-slicing.md	{'draft-ietf-ccamp-yang-otn-slicing.xml': 12, 'draft-ietf-ccamp-yang-otn-slicing.md': 10}	{'xml': 12, 'md': 10}	22	2	xml
+draft-ietf-ccamp-optical-impairment-topology-yang	draft-ietf-ccamp-optical-impairment-topology-yang.xml	{'draft-ietf-ccamp-optical-impairment-topology-yang.xml': 6}	{'xml': 6}	6	1	xml
+ebml-specification	rfc8794.xml	{'rfc8794.xml': 2}	{'xml': 2}	2	1	xml
+groupcomm-bis	draft-ietf-core-groupcomm-bis.md	{'draft-ietf-core-groupcomm-bis.md': 30}	{'md': 30}	30	1	md
+core-problem-details	draft-ietf-core-problem-details.md	{'draft-ietf-core-problem-details.md': 50}	{'md': 50}	50	1	md
+oscore-edhoc	draft-ietf-core-oscore-edhoc.md	{'draft-ietf-core-oscore-edhoc.md': 12}	{'md': 12}	12	1	md
+coral	draft-ietf-core-coral.md	{'draft-ietf-core-coral.md': 28}	{'md': 28}	28	1	md
+coap-pubsub	draft-ietf-core-pubsub.md draft-ietf-core-pubsub.xml draft-ietf-core-coap-pubsub.md	{'draft-ietf-core-pubsub.md': 30, 'draft-ietf-core-pubsub.xml': 12, 'draft-ietf-core-coap-pubsub.md': 2}	{'md': 32, 'xml': 12}	44	3	md
+resource-directory	draft-ietf-core-resource-directory.md rfc9176.xml	{'draft-ietf-core-resource-directory.md': 326, 'rfc9176.xml': 4}	{'md': 326, 'xml': 4}	330	2	md
+oscore-groupcomm	draft-ietf-core-oscore-groupcomm.md	{'draft-ietf-core-oscore-groupcomm.md': 54}	{'md': 54}	54	1	md
+oscore	draft-ietf-core-object-security.md	{'draft-ietf-core-object-security.md': 72}	{'md': 72}	72	1	md
+senml-data-ct	draft-ietf-core-senml-data-ct.md	{'draft-ietf-core-senml-data-ct.md': 18}	{'md': 18}	18	1	md
+echo-request-tag	draft-ietf-core-echo-request-tag.md draft-amsuess-core-repeat-request-tag.md	{'draft-ietf-core-echo-request-tag.md': 74, 'draft-amsuess-core-repeat-request-tag.md': 4}	{'md': 78}	78	2	md
+dynlink	draft-ietf-core-dynlink.md	{'draft-ietf-core-dynlink.md': 20}	{'md': 20}	20	1	md
+new-block	draft-ietf-core-new-block.xml	{'draft-ietf-core-new-block.xml': 44}	{'xml': 44}	44	1	xml
+stateless	draft-ietf-core-stateless.xml	{'draft-ietf-core-stateless.xml': 12}	{'xml': 12}	12	1	xml
+senml-etch	draft-ietf-core-senml-etch.md	{'draft-ietf-core-senml-etch.md': 28}	{'md': 28}	28	1	md
+multipart-ct	draft-ietf-core-multipart-ct.md	{'draft-ietf-core-multipart-ct.md': 32}	{'md': 32}	32	1	md
+senml-spec	draft-ietf-core-senml.md	{'draft-ietf-core-senml.md': 162}	{'md': 162}	162	1	md
+coap-tcp-tls	draft-ietf-core-coap-tcp-tls.md	{'draft-ietf-core-coap-tcp-tls.md': 156}	{'md': 156}	156	1	md
+api	draft-ietf-capport-api.md	{'draft-ietf-capport-api.md': 20}	{'md': 20}	20	1	md
+7710bis	draft-ekwk-capport-rfc7710bis.xml draft-ietf-capport-rfc7710bis.xml	{'draft-ekwk-capport-rfc7710bis.xml': 32, 'draft-ietf-capport-rfc7710bis.xml': 8}	{'xml': 40}	40	2	xml
+capport-wg-architecture	draft-ietf-capport-architecture.xml	{'draft-ietf-capport-architecture.xml': 168}	{'xml': 168}	168	1	xml
+X509	draft-ietf-cose-hash-algs.xml draft-ietf-cose-x509.xml draft-schaad-cose-x509.xml draft-ietf-cose-x509.md	{'draft-ietf-cose-hash-algs.xml': 6, 'draft-ietf-cose-x509.xml': 22, 'draft-schaad-cose-x509.xml': 8, 'draft-ietf-cose-x509.md': 4}	{'xml': 36, 'md': 4}	40	4	xml
+cose-rfc8152bis	draft-ietf-cose-rfc8152bis-struct.xml draft-ietf-cose-rfc8152bis-algs.xml draft-schaad-cose-rfc8152bis-algs.xml draft-schaad-cose-rfc8152bis-struct.xml	{'draft-ietf-cose-rfc8152bis-struct.xml': 28, 'draft-ietf-cose-rfc8152bis-algs.xml': 26, 'draft-schaad-cose-rfc8152bis-algs.xml': 4, 'draft-schaad-cose-rfc8152bis-struct.xml': 4}	{'xml': 62}	62	4	xml
+countersign	draft-ietf-cose-countersign.xml	{'draft-ietf-cose-countersign.xml': 12}	{'xml': 12}	12	1	xml
+cose-spec	draft-ietf-cose-msg.xml draft-schaad-cose.md draft-schaad-cose-msg.xml draft-schaad-cose.xml	{'draft-ietf-cose-msg.xml': 242, 'draft-schaad-cose.md': 36, 'draft-schaad-cose-msg.xml': 22, 'draft-schaad-cose.xml': 8}	{'xml': 272, 'md': 36}	308	4	xml
+draft-ietf-detnet-yang	draft-ietf-detnet-yang-07.xml draft-ietf-detnet-yang-09.xml draft-ietf-detnet-yang-10.xml draft-ietf-detnet-yang-12.xml draft-ietf-detnet-yang-12.v2v3.xml draft-ietf-detnet-yang-11.xml draft-ietf-detnet-yang-08.xml	{'draft-ietf-detnet-yang-07.xml': 8, 'draft-ietf-detnet-yang-09.xml': 6, 'draft-ietf-detnet-yang-10.xml': 12, 'draft-ietf-detnet-yang-12.xml': 2, 'draft-ietf-detnet-yang-12.v2v3.xml': 2, 'draft-ietf-detnet-yang-11.xml': 2, 'draft-ietf-detnet-yang-08.xml': 4}	{'xml': 36}	36	7	xml
+data-plane-drafts	draft-ietf-detnet-data-plane-framework.xml draft-ietf-detnet-ip-over-mpls.xml draft-ietf-detnet-mpls-over-udp-ip.xml draft-ietf-detnet-tsn-vpn-over-mpls.xml draft-ietf-detnet-ip-over-tsn.xml draft-ietf-detnet-ip.xml draft-ietf-detnet-mpls-over-tsn.xml draft-ietf-detnet-mpls.xml draft-ietf-detnet-mpls-10.xml draft-ietf-detnet-data-plane-framework-02.xml	{'draft-ietf-detnet-data-plane-framework.xml': 52, 'draft-ietf-detnet-ip-over-mpls.xml': 52, 'draft-ietf-detnet-mpls-over-udp-ip.xml': 44, 'draft-ietf-detnet-tsn-vpn-over-mpls.xml': 38, 'draft-ietf-detnet-ip-over-tsn.xml': 36, 'draft-ietf-detnet-ip.xml': 54, 'draft-ietf-detnet-mpls-over-tsn.xml': 36, 'draft-ietf-detnet-mpls.xml': 84, 'draft-ietf-detnet-mpls-10.xml': 2, 'draft-ietf-detnet-data-plane-framework-02.xml': 2}	{'xml': 400}	400	10	xml
+draft-ietf-detnet-dp-sol-mpls	draft-ietf-detnet-dp-sol-mpls-01.xml draft-ietf-detnet-dp-sol-mpls-00.xml draft-ietf-detnet-dp-sol-mpls-02.xml	{'draft-ietf-detnet-dp-sol-mpls-01.xml': 4, 'draft-ietf-detnet-dp-sol-mpls-00.xml': 20, 'draft-ietf-detnet-dp-sol-mpls-02.xml': 14}	{'xml': 38}	38	3	xml
+draft-ietf-detnet-dp-sol-ip	draft-ietf-detnet-dp-sol-ip-00.xml draft-ietf-detnet-dp-sol-ip-02.xml draft-ietf-detnet-dp-sol-ip-01.xml	{'draft-ietf-detnet-dp-sol-ip-00.xml': 12, 'draft-ietf-detnet-dp-sol-ip-02.xml': 14, 'draft-ietf-detnet-dp-sol-ip-01.xml': 4}	{'xml': 30}	30	3	xml
+yang	draft-ietf-dhc-dhcpv6-yang-15.xml draft-ietf-dhc-dhcpv6-yang-17.xml draft-ietf-dhc-dhcpv6-yang-19.xml draft-ietf-dhc-dhcpv6-yang-07.xml draft-ietf-dhc-dhcpv6-yang-22.xml draft-ietf-dhc-dhcpv6-yang-13.xml draft-ietf-dhc-dhcpv6-yang-10-if-24-10-19.xml draft-ietf-dhc-dhcpv6-yang-10-if-8-10-19.xml draft-ietf-dhc-dhcpv6-yang-21.xml draft-ietf-dhc-dhcpv6-yang-20.xml draft-ietf-dhc-dhcpv6-yang-14.xml draft-ietf-dhc-dhcpv6-yang-25.xml draft-ietf-dhc-dhcpv6-yang-23.xml	{'draft-ietf-dhc-dhcpv6-yang-15.xml': 4, 'draft-ietf-dhc-dhcpv6-yang-17.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-19.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-07.xml': 10, 'draft-ietf-dhc-dhcpv6-yang-22.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-13.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-10-if-24-10-19.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-10-if-8-10-19.xml': 8, 'draft-ietf-dhc-dhcpv6-yang-21.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-20.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-14.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-25.xml': 2, 'draft-ietf-dhc-dhcpv6-yang-23.xml': 2}	{'xml': 42}	42	13	xml
+draft-ietf-dmarc-dmarcbis	draft-ietf-dmarc-dmarcbis.md draft-ietf-dmarc-dmarcbis-01.xml draft-ietf-dmarc-dmarcbis-03.xml	{'draft-ietf-dmarc-dmarcbis.md': 114, 'draft-ietf-dmarc-dmarcbis-01.xml': 54, 'draft-ietf-dmarc-dmarcbis-03.xml': 2}	{'md': 114, 'xml': 56}	170	3	md
+draft-ietf-dnsop-glue-is-not-optional	draft-ietf-dnsop-glue-is-not-optional.md	{'draft-ietf-dnsop-glue-is-not-optional.md': 44}	{'md': 44}	44	1	md
+draft-ietf-dnsop-terminology-bis	draft-ietf-dnsop-terminology-bis-latest.xml rfc8499.xml draft-ietf-dnsop-terminology-bis-05.xml draft-ietf-dnsop-terminology-bis-06.xml	{'draft-ietf-dnsop-terminology-bis-latest.xml': 90, 'rfc8499.xml': 8, 'draft-ietf-dnsop-terminology-bis-05.xml': 6, 'draft-ietf-dnsop-terminology-bis-06.xml': 2}	{'xml': 106}	106	4	xml
+draft-ietf-doh-dns-over-https	draft-ietf-doh-dns-over-https-latest.mkd	{'draft-ietf-doh-dns-over-https-latest.mkd': 272}	{'mkd': 272}	272	1	mkd
+draft-ietf-dnssd-srp	draft-ietf-dnssd-srp.xml	{'draft-ietf-dnssd-srp.xml': 34}	{'xml': 34}	34	1	xml
+eap-aka-pfs	draft-ietf-emu-aka-pfs-latest.xml draft-arkko-eap-aka-pfs.xml	{'draft-ietf-emu-aka-pfs-latest.xml': 12, 'draft-arkko-eap-aka-pfs.xml': 2}	{'xml': 14}	14	2	xml
+gnap-core-protocol	draft-ietf-gnap-core-protocol.md	{'draft-ietf-gnap-core-protocol.md': 412}	{'md': 412}	412	1	md
+gnap-resource-servers	draft-ietf-gnap-resource-servers.md	{'draft-ietf-gnap-resource-servers.md': 34}	{'md': 34}	34	1	md
+draft-ietf-git-github-wg-configuration	draft-ietf-git-github-wg-configuration.md	{'draft-ietf-git-github-wg-configuration.md': 26}	{'md': 26}	26	1	md
+ace-key-groupcomm	draft-ietf-ace-key-groupcomm.md draft-palombini-ace-key-groupcomm.md	{'draft-ietf-ace-key-groupcomm.md': 52, 'draft-palombini-ace-key-groupcomm.md': 6}	{'md': 58}	58	2	md
+ace-oscore-profile	draft-ietf-ace-oscore-profile.xml rfc9203.xml	{'draft-ietf-ace-oscore-profile.xml': 38, 'rfc9203.xml': 2}	{'xml': 40}	40	2	xml
+using-github	draft-thomson-github-bcp.md draft-ietf-git-using-github.md draft-thomson-git-using-github.md	{'draft-thomson-github-bcp.md': 6, 'draft-ietf-git-using-github.md': 66, 'draft-thomson-git-using-github.md': 2}	{'md': 74}	74	3	md
+mediatypes	draft-ietf-httpapi-rest-api-mediatypes.md draft-ietf-httpapi-yaml-mediatypes.md	{'draft-ietf-httpapi-rest-api-mediatypes.md': 22, 'draft-ietf-httpapi-yaml-mediatypes.md': 32}	{'md': 54}	54	2	md
+ratelimit-headers	draft-ietf-httpapi-ratelimit-headers.md	{'draft-ietf-httpapi-ratelimit-headers.md': 94}	{'md': 94}	94	1	md
+linkset	draft-ietf-httpapi-linkset-03.xml draft-ietf-httpapi-linkset-10.xml draft-ietf-httpapi-linkset-01.xml draft-ietf-httpapi-linkset-00.xml	{'draft-ietf-httpapi-linkset-03.xml': 16, 'draft-ietf-httpapi-linkset-10.xml': 2, 'draft-ietf-httpapi-linkset-01.xml': 2, 'draft-ietf-httpapi-linkset-00.xml': 2}	{'xml': 22}	22	4	xml
+link-template	draft-ietf-httpapi-link-template.md	{'draft-ietf-httpapi-link-template.md': 6}	{'md': 6}	6	1	md
+rfc7807bis	draft-ietf-httpapi-rfc7807bis.md	{'draft-ietf-httpapi-rfc7807bis.md': 40}	{'md': 40}	40	1	md
+deprecation-header	draft-ietf-httpapi-deprecation-header.md	{'draft-ietf-httpapi-deprecation-header.md': 12}	{'md': 12}	12	1	md
+idempotency	draft-ietf-httpapi-idempotency-key-header.md	{'draft-ietf-httpapi-idempotency-key-header.md': 18}	{'md': 18}	18	1	md
+ietf-homenet-hna	draft-ietf-homenet-front-end-naming-delegation.mkd draft-ietf-homenet-front-end-naming-delegation.md	{'draft-ietf-homenet-front-end-naming-delegation.mkd': 48, 'draft-ietf-homenet-front-end-naming-delegation.md': 10}	{'mkd': 48, 'md': 10}	58	2	mkd
+draft-ice-pac	draft-ietf-ice-pac.xml	{'draft-ietf-ice-pac.xml': 28}	{'xml': 28}	28	1	xml
+trickle	draft-ietf-ice-trickle.xml	{'draft-ietf-ice-trickle.xml': 6}	{'xml': 6}	6	1	xml
+rfc5245bis	draft-ietf-ice-rfc5245bis.xml	{'draft-ietf-ice-rfc5245bis.xml': 82}	{'xml': 82}	82	1	xml
+mud-reporter	draft-lear-opsawg-mud-reporter.mkd	{'draft-lear-opsawg-mud-reporter.mkd': 6}	{'mkd': 6}	6	1	mkd
+draft-ietf-jsonpath-base	draft-ietf-jsonpath-base.md draft-normington-jsonpath-latest.md draft-normington-jsonpath-latest.xml	{'draft-ietf-jsonpath-base.md': 428, 'draft-normington-jsonpath-latest.md': 2, 'draft-normington-jsonpath-latest.xml': 6}	{'md': 430, 'xml': 6}	436	3	md
+iregexp	draft-bormann-jsonpath-iregexp.md draft-ietf-jsonpath-iregexp.md	{'draft-bormann-jsonpath-iregexp.md': 12, 'draft-ietf-jsonpath-iregexp.md': 12}	{'md': 24}	24	2	md
+edhoc	draft-ietf-lake-edhoc.md draft-ietf-lake-traces.md	{'draft-ietf-lake-edhoc.md': 248, 'draft-ietf-lake-traces.md': 4}	{'md': 252}	252	2	md
+documentsigning-eku	draft-ietf-lamps-documentsigning-eku.md	{'draft-ietf-lamps-documentsigning-eku.md': 30}	{'md': 30}	30	1	md
+smime	draft-schaad-rfc5750-bis.xml draft-ietf-lamps-rfc5751-bis.xml draft-schaad-curdle-oid-registry.xml draft-schaad-rfc5751-bis.xml draft-ietf-lamps-rfc5750-bis.xml	{'draft-schaad-rfc5750-bis.xml': 14, 'draft-ietf-lamps-rfc5751-bis.xml': 26, 'draft-schaad-curdle-oid-registry.xml': 16, 'draft-schaad-rfc5751-bis.xml': 24, 'draft-ietf-lamps-rfc5750-bis.xml': 18}	{'xml': 98}	98	5	xml
+draft-ietf-mops-streaming-opcons	draft-ietf-mops-streaming-opcons.md draft-jholland-mops-taxonomy.md	{'draft-ietf-mops-streaming-opcons.md': 184, 'draft-jholland-mops-taxonomy.md': 8}	{'md': 192}	192	2	md
+draft-ietf-masque-connect-ip	draft-ietf-masque-connect-ip.md draft-age-masque-connect-ip.md	{'draft-ietf-masque-connect-ip.md': 114, 'draft-age-masque-connect-ip.md': 30}	{'md': 144}	144	2	md
+draft-ietf-masque-connect-udp	draft-ietf-masque-connect-udp.md	{'draft-ietf-masque-connect-udp.md': 132}	{'md': 132}	132	1	md
+draft-ietf-masque-h3-datagram	draft-ietf-masque-h3-datagram.md draft-schinazi-quic-h3-datagram.md draft-schinazi-masque-h3-datagram.md draft-h3-datagram.md	{'draft-ietf-masque-h3-datagram.md': 176, 'draft-schinazi-quic-h3-datagram.md': 2, 'draft-schinazi-masque-h3-datagram.md': 14, 'draft-h3-datagram.md': 2}	{'md': 194}	194	4	md
+mls-architecture	draft-rescorla-mls-architecture.md draft-ietf-mls-architecture.md draft-omara-mls-architecture.md	{'draft-rescorla-mls-architecture.md': 36, 'draft-ietf-mls-architecture.md': 138, 'draft-omara-mls-architecture.md': 12}	{'md': 186}	186	3	md
+mls-protocol	draft-ietf-mls-protocol.md draft-barnes-mls-protocol.md	{'draft-ietf-mls-protocol.md': 906, 'draft-barnes-mls-protocol.md': 92}	{'md': 998}	998	2	md
+mls-federation	draft-ietf-mls-federation.md	{'draft-ietf-mls-federation.md': 10}	{'md': 10}	10	1	md
+draft-ietf-mptcp-rfc6824bis	draft-ietf-mptcp-rfc6824bis-11.xml draft-ietf-mptcp-rfc6824bis-10.xml	{'draft-ietf-mptcp-rfc6824bis-11.xml': 16, 'draft-ietf-mptcp-rfc6824bis-10.xml': 2}	{'xml': 18}	18	2	xml
+https-notif	draft-ietf-netconf-https-notif.xml	{'draft-ietf-netconf-https-notif.xml': 26}	{'xml': 26}	26	1	xml
+draft-irtf-nwcrg-network-coding-satellites	draft-irtf-nwcrg-network-coding-satellites-06.xml draft-irtf-nwcrg-network-coding-satellites-07.xml draft-irtf-nwcrg-network-coding-satellites-05.xml draft-irtf-nwcrg-network-coding-satellites-10.xml	{'draft-irtf-nwcrg-network-coding-satellites-06.xml': 26, 'draft-irtf-nwcrg-network-coding-satellites-07.xml': 14, 'draft-irtf-nwcrg-network-coding-satellites-05.xml': 18, 'draft-irtf-nwcrg-network-coding-satellites-10.xml': 2}	{'xml': 60}	60	4	xml
+oblivious-http	draft-thomson-http-oblivious.md draft-ietf-ohai-ohttp.md draft-thomson-ohai-ohttp.md draft-thomson-http-binary-message.md	{'draft-thomson-http-oblivious.md': 68, 'draft-ietf-ohai-ohttp.md': 248, 'draft-thomson-ohai-ohttp.md': 6, 'draft-thomson-http-binary-message.md': 12}	{'md': 334}	334	4	md
+lxnm	draft-ietf-opsawg-l3sm-l3nm-01.xml draft-ietf-opsawg-l3sm-l3nm-04.xml draft-ietf-opsawg-l3sm-l3nm-02.xml draft-ietf-opsawg-sap.xml draft-ietf-opsawg-l3sm-l3nm-03.xml draft-ietf-opsawg-l3sm-l3nm.xml draft-ietf-opsawg-l2nm.xml draft-ietf-opsawg-l3sm-l3nm-00.xml draft-ietf-opsawg-vpn-common.xml	{'draft-ietf-opsawg-l3sm-l3nm-01.xml': 30, 'draft-ietf-opsawg-l3sm-l3nm-04.xml': 42, 'draft-ietf-opsawg-l3sm-l3nm-02.xml': 22, 'draft-ietf-opsawg-sap.xml': 16, 'draft-ietf-opsawg-l3sm-l3nm-03.xml': 4, 'draft-ietf-opsawg-l3sm-l3nm.xml': 8, 'draft-ietf-opsawg-l2nm.xml': 14, 'draft-ietf-opsawg-l3sm-l3nm-00.xml': 2, 'draft-ietf-opsawg-vpn-common.xml': 4}	{'xml': 142}	142	9	xml
+ietf-wg-privacypass-base-drafts	draft-ietf-privacypass-auth-scheme.md draft-ietf-privacypass-architecture.md draft-davidson-pp-protocol.md draft-ietf-privacypass-protocol.md draft-svaldez-pp-http-api.md draft-davidson-pp-architecture.md draft-ietf-privacypass-http-api.md	{'draft-ietf-privacypass-auth-scheme.md': 78, 'draft-ietf-privacypass-architecture.md': 118, 'draft-davidson-pp-protocol.md': 22, 'draft-ietf-privacypass-protocol.md': 112, 'draft-svaldez-pp-http-api.md': 8, 'draft-davidson-pp-architecture.md': 10, 'draft-ietf-privacypass-http-api.md': 4}	{'md': 352}	352	7	md
+draft-ietf-ppm-dap	draft-ietf-ppm-dap.md draft-gpew-priv-ppm.md draft-ppm-protocol.md draft-pda-protocol.md draft-pda-core.md	{'draft-ietf-ppm-dap.md': 200, 'draft-gpew-priv-ppm.md': 48, 'draft-ppm-protocol.md': 20, 'draft-pda-protocol.md': 78, 'draft-pda-core.md': 8}	{'md': 354}	354	5	md
+rfc-censorship-tech	draft-hall-censorship-tech.md draft-irtf-pearg-censorship.md draft-hall-censorship-tech-latest.md	{'draft-hall-censorship-tech.md': 4, 'draft-irtf-pearg-censorship.md': 10, 'draft-hall-censorship-tech-latest.md': 12}	{'md': 26}	26	3	md
+perc-wg	draft-ietf-perc-double.md draft-ietf-perc-srtp-ekt-diet.xml draft-jones-perc-dtls-tunnel.md draft-ietf-perc-srtp-ekt-diet.md draft-ietf-perc-dtls-tunnel.md draft-ietf-perc-private-media-framework.md draft-jones-perc-private-media-framework.md	{'draft-ietf-perc-double.md': 58, 'draft-ietf-perc-srtp-ekt-diet.xml': 60, 'draft-jones-perc-dtls-tunnel.md': 6, 'draft-ietf-perc-srtp-ekt-diet.md': 26, 'draft-ietf-perc-dtls-tunnel.md': 20, 'draft-ietf-perc-private-media-framework.md': 34, 'draft-jones-perc-private-media-framework.md': 2}	{'md': 146, 'xml': 60}	206	7	md
+draft-ietf-rats-uccs	draft-ietf-rats-uccs.md	{'draft-ietf-rats-uccs.md': 16}	{'md': 16}	16	1	md
+ietf-rats-wg-architecture	draft-ietf-rats-architecture.md	{'draft-ietf-rats-architecture.md': 438}	{'md': 438}	438	1	md
+basic-yang-module	draft-ietf-rats-yang-tpm-charra.md attester-supported-algos.tree	{'draft-ietf-rats-yang-tpm-charra.md': 76, 'attester-supported-algos.tree': 1}	{'md': 76, 'tree': 1}	77	2	md
+draft-ietf-rats-ar4si	draft-ietf-rats-ar4si.md	{'draft-ietf-rats-ar4si.md': 18}	{'md': 18}	18	1	md
+draft-ietf-rats-reference-interaction-models	draft-ietf-rats-reference-interaction-models.md	{'draft-ietf-rats-reference-interaction-models.md': 34}	{'md': 34}	34	1	md
+dao-projection	draft-ietf-roll-dao-projection.xml	{'draft-ietf-roll-dao-projection.xml': 14}	{'xml': 14}	14	1	xml
+rpl-observations	draft-ietf-roll-rpl-observations.xml	{'draft-ietf-roll-rpl-observations.xml': 4}	{'xml': 4}	4	1	xml
+Capabilities	draft-ietf-roll-mopex-cap.xml draft-ietf-roll-capabilities.xml	{'draft-ietf-roll-mopex-cap.xml': 4, 'draft-ietf-roll-capabilities.xml': 6}	{'xml': 10}	10	2	xml
+useofrplinfo	roll-useofrplinfo.xml draft-ietf-roll-useofrplinfo.xml	{'roll-useofrplinfo.xml': 24, 'draft-ietf-roll-useofrplinfo.xml': 2}	{'xml': 26}	26	2	xml
+jsep	draft-ietf-rtcweb-jsep.xml	{'draft-ietf-rtcweb-jsep.xml': 988}	{'xml': 988}	988	1	xml
+mdns-ice-candidates	draft-ietf-rtcweb-mdns-ice-candidates.md draft-ietf-mmusic-mdns-ice-candidates.md	{'draft-ietf-rtcweb-mdns-ice-candidates.md': 122, 'draft-ietf-mmusic-mdns-ice-candidates.md': 10}	{'md': 132}	132	2	md
+ip-handling	draft-ietf-rtcweb-ip-handling.xml	{'draft-ietf-rtcweb-ip-handling.xml': 18}	{'xml': 18}	18	1	xml
+security-arch	draft-ietf-rtcweb-security-arch.xml	{'draft-ietf-rtcweb-security-arch.xml': 98}	{'xml': 98}	98	1	xml
+fec	draft-ietf-rtcweb-fec.xml	{'draft-ietf-rtcweb-fec.xml': 12}	{'xml': 12}	12	1	xml
+security	draft-ietf-rtcweb-security.xml	{'draft-ietf-rtcweb-security.xml': 26}	{'xml': 26}	26	1	xml
+rtcweb-overview	rtcweb-overview.xml	{'rtcweb-overview.xml': 42}	{'xml': 42}	42	1	xml
+rtcweb-transport	rtcweb-transports.xml	{'rtcweb-transports.xml': 38}	{'xml': 38}	38	1	xml
+qlog	draft-marx-qlog-event-definitions-quic-h3.md draft-ietf-quic-qlog-h3-events.md draft-ietf-quic-qlog-quic-events.md draft-ietf-quic-qlog-main-schema.md draft-marx-qlog-main-schema.md	{'draft-marx-qlog-event-definitions-quic-h3.md': 42, 'draft-ietf-quic-qlog-h3-events.md': 48, 'draft-ietf-quic-qlog-quic-events.md': 66, 'draft-ietf-quic-qlog-main-schema.md': 36, 'draft-marx-qlog-main-schema.md': 2}	{'md': 194}	194	5	md
+ops-drafts	draft-ietf-quic-manageability.md draft-ietf-quic-applicability.md	{'draft-ietf-quic-manageability.md': 366, 'draft-ietf-quic-applicability.md': 234}	{'md': 600}	600	2	md
+load-balancers	draft-ietf-quic-load-balancers.md draft-ietf-quic-retry-offload.md	{'draft-ietf-quic-load-balancers.md': 192, 'draft-ietf-quic-retry-offload.md': 4}	{'md': 196}	196	2	md
+multipath	draft-ietf-quic-multipath.md draft-lmbdhk-quic-multipath.md	{'draft-ietf-quic-multipath.md': 122, 'draft-lmbdhk-quic-multipath.md': 80}	{'md': 202}	202	2	md
+quic-v2	draft-ietf-quic-v2.md draft-duke-quic-v2.md	{'draft-ietf-quic-v2.md': 82, 'draft-duke-quic-v2.md': 2}	{'md': 84}	84	2	md
+ack-frequency	draft-ietf-quic-ack-frequency.md draft-iyengar-quic-delayed-ack.md	{'draft-ietf-quic-ack-frequency.md': 146, 'draft-iyengar-quic-delayed-ack.md': 40}	{'md': 186}	186	2	md
+version-negotiation	draft-ietf-quic-version-negotiation.md	{'draft-ietf-quic-version-negotiation.md': 118}	{'md': 118}	118	1	md
+quic-bit-grease	draft-ietf-quic-bit-grease.md	{'draft-ietf-quic-bit-grease.md': 30}	{'md': 30}	30	1	md
+quicwg-base-drafts	draft-ietf-quic-invariants.md draft-ietf-quic-http.md draft-ietf-quic-transport.md draft-ietf-quic-recovery.md draft-ietf-quic-tls.md rfc9000.md rfc9002.md rfc9114.md draft-ietf-quic-qpack.md rfc9204.md rfc8999.md draft-ietf-quic-spin-exp.md rfc9001.md	{'draft-ietf-quic-invariants.md': 76, 'draft-ietf-quic-http.md': 476, 'draft-ietf-quic-transport.md': 1382, 'draft-ietf-quic-recovery.md': 610, 'draft-ietf-quic-tls.md': 400, 'rfc9000.md': 52, 'rfc9002.md': 52, 'rfc9114.md': 54, 'draft-ietf-quic-qpack.md': 228, 'rfc9204.md': 22, 'rfc8999.md': 22, 'draft-ietf-quic-spin-exp.md': 4, 'rfc9001.md': 26}	{'md': 3404}	3404	13	md
+quicwg-datagram	draft-ietf-quic-datagram.md	{'draft-ietf-quic-datagram.md': 78}	{'md': 78}	78	1	md
+draft-ietf-sacm-coswid	draft-ietf-sacm-coswid.md	{'draft-ietf-sacm-coswid.md': 62}	{'md': 62}	62	1	md
+draft-ietf-sacm-terminology	draft-ietf-sacm-terminology.md	{'draft-ietf-sacm-terminology.md': 16}	{'md': 16}	16	1	md
+vulnerability-scenario	draft-ietf-sacm-vuln-scenario.xml	{'draft-ietf-sacm-vuln-scenario.xml': 4}	{'xml': 4}	4	1	xml
+draft-ietf-sacm-information-model	draft-ietf-sacm-information-model.xml	{'draft-ietf-sacm-information-model.xml': 4}	{'xml': 4}	4	1	xml
+draft-ietf-sacm-requirements	draft-ietf-sacm-requirements.xml	{'draft-ietf-sacm-requirements.xml': 10}	{'xml': 10}	10	1	xml
+draft-ietf-sacm-architecture	draft-ietf-sacm-architecture.md draft-ietf-sacm-architecture.xml	{'draft-ietf-sacm-architecture.md': 2, 'draft-ietf-sacm-architecture.xml': 6}	{'md': 2, 'xml': 6}	8	2	xml
+draft-ietf-sedate-datetime-extended	draft-ietf-sedate-datetime-extended.md	{'draft-ietf-sedate-datetime-extended.md': 36}	{'md': 36}	36	1	md
+sframe	draft-omara-sframe.md draft-ietf-sframe-enc.md	{'draft-omara-sframe.md': 58, 'draft-ietf-sframe-enc.md': 26}	{'md': 84}	84	2	md
+manifest-spec	draft-ietf-suit-manifest.md draft-ietf-suit-manifest-02.md draft-ietf-suit-manifest-02.xml draft-ietf-suit-manifest.xml draft-ietf-suit-manifest-03.md	{'draft-ietf-suit-manifest.md': 72, 'draft-ietf-suit-manifest-02.md': 6, 'draft-ietf-suit-manifest-02.xml': 2, 'draft-ietf-suit-manifest.xml': 8, 'draft-ietf-suit-manifest-03.md': 6}	{'md': 84, 'xml': 10}	94	5	md
+suit-firmware-encryption	draft-ietf-suit-firmware-encryption.md draft-ietf-suit-firmware-encryption.xml	{'draft-ietf-suit-firmware-encryption.md': 22, 'draft-ietf-suit-firmware-encryption.xml': 6}	{'md': 22, 'xml': 6}	28	2	md
+information-model	draft-ietf-suit-information-model.xml draft-ietf-suit-information-model.md	{'draft-ietf-suit-information-model.xml': 8, 'draft-ietf-suit-information-model.md': 30}	{'xml': 8, 'md': 30}	38	2	md
+suit-wg-architecture	draft-ietf-suit-architecture.md draft-ietf-suit-architecture.xml	{'draft-ietf-suit-architecture.md': 32, 'draft-ietf-suit-architecture.xml': 4}	{'md': 32, 'xml': 4}	36	2	md
+draft-ietf-tls-ctls	draft-rescorla-tls-ctls.md draft-ietf-tls-ctls.md	{'draft-rescorla-tls-ctls.md': 38, 'draft-ietf-tls-ctls.md': 68}	{'md': 106}	106	2	md
+tls13-spec	draft-ietf-tls-tls13.md draft-ietf-tls-rfc8446bis.md	{'draft-ietf-tls-tls13.md': 1266, 'draft-ietf-tls-rfc8446bis.md': 90}	{'md': 1356}	1356	2	md
+dtls-rrc	draft-ietf-tls-dtls-rrc.md	{'draft-ietf-tls-dtls-rrc.md': 62}	{'md': 62}	62	1	md
+draft-ietf-tls-esni	draft-ietf-tls-esni.md draft-rescorla-tls-esni.md	{'draft-ietf-tls-esni.md': 480, 'draft-rescorla-tls-esni.md': 76}	{'md': 556}	556	2	md
+rfc8447bis	draft-ietf-tls-rfc8447bis.md	{'draft-ietf-tls-rfc8447bis.md': 46}	{'md': 46}	46	1	md
+tls-record-limit	draft-ietf-tls-record-limit.md draft-thomson-tls-record-limit.md	{'draft-ietf-tls-record-limit.md': 24, 'draft-thomson-tls-record-limit.md': 2}	{'md': 26}	26	2	md
+draft-ietf-tls-iana-registry-updates	draft-ietf-tls-iana-registry-updates.md	{'draft-ietf-tls-iana-registry-updates.md': 98}	{'md': 98}	98	1	md
+dnssec-chain-extension	draft-ietf-tls-dnssec-chain-extension-07.xml draft-ietf-tls-dnssec-chain-extension-04.xml draft-ietf-tls-dnssec-chain-extension-05.xml draft-shore-tls-dnssec-chain-extension-02.xml draft-ietf-tls-dnssec-chain-extension-08.xml	{'draft-ietf-tls-dnssec-chain-extension-07.xml': 8, 'draft-ietf-tls-dnssec-chain-extension-04.xml': 8, 'draft-ietf-tls-dnssec-chain-extension-05.xml': 2, 'draft-shore-tls-dnssec-chain-extension-02.xml': 2, 'draft-ietf-tls-dnssec-chain-extension-08.xml': 2}	{'xml': 22}	22	5	xml
+rfc4492bis	draft-ietf-tls-rfc4492bis.xml	{'draft-ietf-tls-rfc4492bis.xml': 58}	{'xml': 58}	58	1	xml
+draft-ietf-tls-tls13-vectors	draft-ietf-tls-tls13-vectors.md	{'draft-ietf-tls-tls13-vectors.md': 6}	{'md': 6}	6	1	md
+draft-ietf-tls-grease	draft-ietf-tls-grease-latest.xml	{'draft-ietf-tls-grease-latest.xml': 16}	{'xml': 16}	16	1	xml
+sniencryption	draft-ietf-tls-sni-encryption.md draft-huitema-tls-sni-encryption.md	{'draft-ietf-tls-sni-encryption.md': 32, 'draft-huitema-tls-sni-encryption.md': 4}	{'md': 36}	36	2	md
+certificate-compression	draft-ietf-tls-certificate-compression.md	{'draft-ietf-tls-certificate-compression.md': 48}	{'md': 48}	48	1	md
+draft-ietf-tls-ticketrequest	draft-ietf-tls-ticketrequests.md draft-wood-tls-ticketrequest.md	{'draft-ietf-tls-ticketrequests.md': 32, 'draft-wood-tls-ticketrequest.md': 2}	{'md': 34}	34	2	md
+external-psk-design-team	draft-ietf-tls-external-psk-guidance.md draft-dt-tls-external-psk-guidance.md draft-group-tls-external-psk-guidance.md	{'draft-ietf-tls-external-psk-guidance.md': 64, 'draft-dt-tls-external-psk-guidance.md': 12, 'draft-group-tls-external-psk-guidance.md': 22}	{'md': 98}	98	3	md
+dtls-conn-id	draft-ietf-tls-dtls-connection-id.md	{'draft-ietf-tls-dtls-connection-id.md': 128}	{'md': 128}	128	1	md
+tls-exported-authenticator	draft-ietf-tls-exported-authenticator.md	{'draft-ietf-tls-exported-authenticator.md': 96}	{'md': 96}	96	1	md
+dtls13-spec	draft-ietf-tls-dtls13.md	{'draft-ietf-tls-dtls13.md': 310}	{'md': 310}	310	1	md
+draft-ietf-tls-external-psk-importer	draft-ietf-tls-external-psk-importer.md draft-wood-tls-external-psk-importer.md	{'draft-ietf-tls-external-psk-importer.md': 38, 'draft-wood-tls-external-psk-importer.md': 4}	{'md': 42}	42	2	md
+tls-flags	draft-ietf-tls-tlsflags.xml	{'draft-ietf-tls-tlsflags.xml': 26}	{'xml': 26}	26	1	xml
+draft-ietf-tls-md5-sha1-deprecate	draft-ietf-tls-md5-sha1-deprecate-07.xml draft-ietf-tls-md5-sha1-deprecate-00.xml draft-ietf-tls-md5-sha1-deprecate-08.xml draft-ietf-tls-md5-sha1-deprecate-02.xml	{'draft-ietf-tls-md5-sha1-deprecate-07.xml': 10, 'draft-ietf-tls-md5-sha1-deprecate-00.xml': 8, 'draft-ietf-tls-md5-sha1-deprecate-08.xml': 10, 'draft-ietf-tls-md5-sha1-deprecate-02.xml': 10}	{'xml': 38}	38	4	xml
+tls-subcerts	draft-ietf-tls-subcerts.md draft-rescorla-tls-subcerts.md draft-ietf-tls-subcerts-07.md	{'draft-ietf-tls-subcerts.md': 128, 'draft-rescorla-tls-subcerts.md': 2, 'draft-ietf-tls-subcerts-07.md': 2}	{'md': 132}	132	3	md
+snip	draft-ietf-tls-snip.md	{'draft-ietf-tls-snip.md': 6}	{'md': 6}	6	1	md
+api-drafts	draft-ietf-taps-arch.md draft-ietf-taps-interface.md draft-ietf-taps-impl.md draft-brunstrom-taps-impl.md draft-trammell-taps-interface.md draft-pauly-taps-arch.md	{'draft-ietf-taps-arch.md': 210, 'draft-ietf-taps-interface.md': 588, 'draft-ietf-taps-impl.md': 224, 'draft-brunstrom-taps-impl.md': 22, 'draft-trammell-taps-interface.md': 60, 'draft-pauly-taps-arch.md': 18}	{'md': 1122}	1122	6	md
+draft-ietf-taps-transport-security	draft-ietf-taps-transport-security.md draft-pauly-taps-transport-security.md	{'draft-ietf-taps-transport-security.md': 82, 'draft-pauly-taps-transport-security.md': 12}	{'md': 94}	94	2	md
+t2trg-rest-iot	draft-keranen-t2trg-rest-iot.md draft-irtf-t2trg-rest-iot.md	{'draft-keranen-t2trg-rest-iot.md': 34, 'draft-irtf-t2trg-rest-iot.md': 42}	{'md': 76}	76	2	md
+t2trg-iot-edge-computing	draft-hong-t2trg-iot-edge-computing.md draft-irtf-t2trg-iot-edge.md	{'draft-hong-t2trg-iot-edge-computing.md': 10, 'draft-irtf-t2trg-iot-edge.md': 6}	{'md': 16}	16	2	md
+webpush-vapid	draft-ietf-webpush-vapid.md draft-thomson-webpush-vapid.md	{'draft-ietf-webpush-vapid.md': 38, 'draft-thomson-webpush-vapid.md': 22}	{'md': 60}	60	2	md
+webpush-encryption	draft-ietf-webpush-encryption.md	{'draft-ietf-webpush-encryption.md': 32}	{'md': 32}	32	1	md
+webpush-protocol	draft-ietf-webpush-protocol.xml draft-thomson-webpush-protocol.xml	{'draft-ietf-webpush-protocol.xml': 126, 'draft-thomson-webpush-protocol.xml': 18}	{'xml': 144}	144	2	xml
+webrtc-http-ingest-protocol	draft-ietf-wish-whip.md draft-murillo-whip.md draf-murillo-whip.md	{'draft-ietf-wish-whip.md': 66, 'draft-murillo-whip.md': 2, 'draf-murillo-whip.md': 2}	{'md': 70}	70	3	md
+draft-ietf-webtrans-overview	draft-ietf-webtrans-overview.md	{'draft-ietf-webtrans-overview.md': 8}	{'md': 8}	8	1	md
+draft-ietf-webtrans-http3	draft-ietf-webtrans-http3.md draft-vvv-webtransport-quic.md draft-vvv-webtransport-http3.md draft-vvv-webtransport-overview.md	{'draft-ietf-webtrans-http3.md': 66, 'draft-vvv-webtransport-quic.md': 10, 'draft-vvv-webtransport-http3.md': 6, 'draft-vvv-webtransport-overview.md': 4}	{'md': 86}	86	4	md
+draft-webtransport-http2	draft-ietf-webtrans-http2.md draft-kinnear-webtransport-http2.md draft-webtransport-http2.md	{'draft-ietf-webtrans-http2.md': 64, 'draft-kinnear-webtransport-http2.md': 8, 'draft-webtransport-http2.md': 4}	{'md': 76}	76	3	md
+bundled-responses	draft-ietf-wpack-bundled-responses.md	{'draft-ietf-wpack-bundled-responses.md': 14}	{'md': 14}	14	1	md
+draft-ietf-add-ddr	draft-ietf-add-ddr.md	{'draft-ietf-add-ddr.md': 106}	{'md': 106}	106	1	md
+draft-ietf-emu-eap-tls13	draft-ietf-emu-eap-tls13.xml	{'draft-ietf-emu-eap-tls13.xml': 66}	{'xml': 66}	66	1	xml
+draft-irtf-nwcrg-coding-and-congestion-in-transport	draft-irtf-nwcrg-coding-and-congestion-04.xml draft-irtf-nwcrg-coding-and-congestion-07.xml draft-irtf-nwcrg-coding-and-congestion-05.xml draft-irtf-nwcrg-coding-and-congestion-08.xml draft-irtf-nwcrg-coding-and-congestion-02.xml draft-irtf-nwcrg-coding-and-congestion-03.xml draft-irtf-nwcrg-coding-and-congestion-01.xml	{'draft-irtf-nwcrg-coding-and-congestion-04.xml': 18, 'draft-irtf-nwcrg-coding-and-congestion-07.xml': 8, 'draft-irtf-nwcrg-coding-and-congestion-05.xml': 4, 'draft-irtf-nwcrg-coding-and-congestion-08.xml': 6, 'draft-irtf-nwcrg-coding-and-congestion-02.xml': 6, 'draft-irtf-nwcrg-coding-and-congestion-03.xml': 2, 'draft-irtf-nwcrg-coding-and-congestion-01.xml': 6}	{'xml': 50}	50	7	xml
+CBOR-certificates	draft-mattsson-cose-cbor-cert-compress.md draft-raza-ace-cbor-certificates.md	{'draft-mattsson-cose-cbor-cert-compress.md': 8, 'draft-raza-ace-cbor-certificates.md': 10}	{'md': 18}	18	2	md
